@@ -1435,7 +1435,7 @@ a:hover.back-to-top {
 
 	/* General Styles */
 	.h1-large {
-		font-size: 3.75rem;
+		/* font-size: 3.75rem; */
 		line-height: 4.375rem;
 	}
 	/* end of general styles */
