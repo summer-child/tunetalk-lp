@@ -576,7 +576,7 @@ input[type='checkbox'] {
 	position: relative;
 	padding-top: 7.75rem;
 	padding-bottom: 4rem;
-	background: linear-gradient(to bottom right, #000000a6, #b15e20), url(../images/header-background.jpeg) center center no-repeat;
+	background: linear-gradient(to bottom right, #000000a6, #b15e20), url(../images/Untitled.png) center center no-repeat;
 	background-size: cover;
 }
 
@@ -698,6 +698,8 @@ input[type='checkbox'] {
 
 .basic-2 .service-details {
 	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .basic-2 h5,
@@ -998,6 +1000,7 @@ input[type='checkbox'] {
 
 .footer .footer-col {
 	margin-bottom: 3rem;
+	text-align: right;
 }
 
 .footer h6 {
@@ -1384,6 +1387,7 @@ a:hover.back-to-top {
 	/* Footer */
 	.footer .footer-col {
 		margin-bottom: 2rem;
+		text-align: right;
 	}
 
 	.footer .footer-col.first {
@@ -1451,7 +1455,7 @@ a:hover.back-to-top {
 	}
 
 	.header .expertise {
-		width: 320px;
+		width: 480px;
 	}
 	
 	.header .expertise:nth-of-type(3n+2) {
@@ -1481,7 +1485,8 @@ a:hover.back-to-top {
 
 	/* Services */
 	.basic-2 .service-container {
-		width: 340px;
+		width: 1110px;
+		margin-right: auto;
 	}
 	
 	.basic-2 .service-container:nth-of-type(3n+2) {
