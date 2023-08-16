@@ -1292,6 +1292,10 @@ a:hover.back-to-top {
 		margin-bottom: 3.75rem;
 	}
 
+	.basic-2 .emphasis { 
+		font-weight: bold;
+	}
+
 	.basic-2 .service-container {
 		display: inline-block;
 		width: 290px;
