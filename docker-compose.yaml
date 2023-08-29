@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  lp:
+    container_name: voiceapp-lp-container
+    hostname: voiceapp-lp
+    image: voiceapp-lp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    tty: true
+    # ports:
+    #   - "80:80"
+    networks:
+      - voice-app-network
+    restart: always
+
+networks:
+  default:
+    external:
+      name: bridge
+  voice-app-network:
+    name: docker.internal
+    external: true
